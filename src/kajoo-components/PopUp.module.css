@@ -1,0 +1,116 @@
+.pop-up {
+  top: 0px;
+  left: 0px;
+  width: 285px;
+  height: 446px;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(58, 58, 58, 1);
+}
+.pop-up,.button {
+  display: flex;
+  position: absolute;
+}
+.button {
+  gap: 24px;
+  top: 175px;
+  left: 16px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.cta {
+  width: 202px;
+  height: 48px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.text {
+  top: 12px;
+  left: 59px;
+  color: rgba(184, 142, 47, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-5 {
+  gap: 20px;
+}
+.frame-5,.frame-11 {
+  display: flex;
+  align-items: center;
+}
+.frame-11 {
+  gap: 2px;
+  justify-content: center;
+}
+.gridiconsshare {
+  width: 16px;
+  height: 16px;
+}
+.text1 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-12 {
+  gap: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comparesvgrepocom-1 {
+  width: 16px;
+  height: 16px;
+}
+.text2 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-10 {
+  gap: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heart {
+  width: 16px;
+  height: 16px;
+}
+.text3 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}

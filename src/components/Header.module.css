@@ -1,0 +1,90 @@
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+  height: auto;
+  padding: 29px 54px;
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 1);
+}
+.header,.frame-168 {
+  gap: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame-168 {
+  padding: 8px 406px;
+  position: relative;
+}
+.frame-2 {
+  gap: 75px;
+  display: flex;
+  align-items: center;
+}
+.text,.text1,.text2,.text3 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-1 {
+  gap: 248px;
+  z-index: 1;
+}
+.frame-1,.frame-1681 {
+  display: flex;
+  align-items: center;
+}
+.frame-1681 {
+  gap: 5px;
+  justify-content: center;
+}
+.meubel-house-logos-05 {
+  width: 50px;
+  height: 32px;
+}
+.text4 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 34px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mdiaccountalertoutline {
+  width: 28px;
+  height: 29px;
+}
+.akariconssearch {
+  width: 26px;
+  height: 26px;
+}
+.akariconsheart {
+  width: 28px;
+  height: 29px;
+}
+.antdesignshoppingcartoutlined {
+  width: 28px;
+  height: 26px;
+}
+@media(max-width: 768px) {
+  .header {
+    width: 1255px;
+    height: 149px;
+  }
+}
