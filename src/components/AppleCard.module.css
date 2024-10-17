@@ -1,0 +1,374 @@
+.main {
+  align-items: center;
+  flex-direction: column;
+}
+.main,.watch-card {
+  width: 100%;
+  display: flex;
+}
+.watch-card {
+  gap: 14px;
+  height: auto;
+  padding: 14px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.watch-se {
+  width: 735px;
+  padding: 24px 0 40px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  background-color: rgba(251, 251, 253, 1);
+}
+.watch-se,.frame-21 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-21 {
+  gap: 15px;
+}
+.frame-19 {
+  gap: 5px;
+}
+.frame-19,.frame-18 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-18 {
+  gap: 15px;
+}
+.promologoapplewatchseb-85-vr-9-ri-02-gilarge-2-x {
+  width: 144px;
+  height: 55px;
+}
+.text {
+  color: rgba(0, 0, 0, 1);
+  font-size: 20px;
+}
+.text,.text1 {
+  height: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text1 {
+  color: rgba(134, 134, 139, 1);
+  font-size: 18px;
+}
+.frame-17 {
+  gap: 31px;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-6 {
+  display: flex;
+  align-items: center;
+}
+.text2 {
+  color: rgba(0, 102, 204, 1);
+  width: 95px;
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.vuesaxlineararrowright {
+  width: 14px;
+  height: 14px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.vuesaxlineararrowright1,.arrowright {
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.vector {
+  top: 2.379999876022339px;
+  left: 5.197499752044678px;
+  width: 4px;
+  height: 9px;
+}
+.vector,.vector1 {
+  position: absolute;
+}
+.vector1 {
+  top: 14px;
+  left: 14px;
+  width: 14px;
+  height: 14px;
+  opacity: 0.00;
+}
+.frame-7 {
+  display: flex;
+  align-items: center;
+}
+.text3 {
+  color: rgba(0, 102, 204, 1);
+  width: 88px;
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.vuesaxlineararrowright2 {
+  width: 14px;
+  height: 14px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.vuesaxlineararrowright3,.arrowright1 {
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.vector2 {
+  top: 2.379999876022339px;
+  left: 5.197499752044678px;
+  width: 4px;
+  height: 9px;
+}
+.vector2,.vector3 {
+  position: absolute;
+}
+.vector3 {
+  top: 14px;
+  left: 14px;
+  width: 14px;
+  height: 14px;
+  opacity: 0.00;
+}
+.promoapplewatchseavaile-5-unstfyokaelarge-2-x {
+  width: 419px;
+  height: 388px;
+}
+.fitness {
+  gap: 8px;
+  width: 735px;
+  padding: 24px 0 31.5px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  background-color: rgba(245, 245, 247, 1);
+}
+.fitness,.frame-211 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-211 {
+  gap: 15px;
+}
+.frame-191 {
+  gap: 5px;
+}
+.frame-191,.frame-181 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.frame-181 {
+  gap: 15px;
+}
+.promologofitnessplusiphonedpayetemakq-6-large-2-x {
+  width: 181px;
+  height: 34px;
+}
+.frame-22 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.text4,.text5 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame-171 {
+  gap: 31px;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-61 {
+  display: flex;
+  align-items: center;
+}
+.text6 {
+  color: rgba(0, 102, 204, 1);
+  width: 95px;
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.vuesaxlineararrowright4 {
+  width: 14px;
+  height: 14px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.vuesaxlineararrowright5,.arrowright2 {
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.vector4 {
+  top: 2.379999876022339px;
+  left: 5.197499752044678px;
+  width: 4px;
+  height: 9px;
+}
+.vector4,.vector5 {
+  position: absolute;
+}
+.vector5 {
+  top: 14px;
+  left: 14px;
+  width: 14px;
+  height: 14px;
+  opacity: 0.00;
+}
+.frame-71 {
+  display: flex;
+  align-items: center;
+}
+.text7 {
+  color: rgba(0, 102, 204, 1);
+  width: 80px;
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.vuesaxlineararrowright6 {
+  width: 14px;
+  height: 14px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.vuesaxlineararrowright7,.arrowright3 {
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.vector6 {
+  top: 2.379999876022339px;
+  left: 5.197499752044678px;
+  width: 4px;
+  height: 9px;
+}
+.vector6,.vector7 {
+  position: absolute;
+}
+.vector7 {
+  top: 14px;
+  left: 14px;
+  width: 14px;
+  height: 14px;
+  opacity: 0.00;
+}
+.promoapplefitnessplusiphonebzeal-882-mv-7-mlarge-2-x {
+  width: 371px;
+  height: 383px;
+}
+.text8 {
+  color: rgba(134, 134, 139, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 768px) {
+  .watch-card,.watch-se {
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .watch-se {
+    width: 50%;
+  }
+  .fitness {
+    width: 343px;
+    height: 550px;
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .promoapplefitnessplusiphonebzeal-882-mv-7-mlarge-2-x {
+    width: 336px;
+    height: 383px;
+  }
+}

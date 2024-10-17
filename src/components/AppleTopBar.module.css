@@ -1,0 +1,89 @@
+.main {
+  align-items: center;
+  flex-direction: column;
+}
+.main,.top-nav {
+  width: 100%;
+  display: flex;
+}
+.top-nav {
+  gap: 45px;
+  height: auto;
+  padding: 0 240px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(49, 49, 50, 1);
+}
+.globalnavappleimageb-5-er-5-ngrzxqqlarge {
+  width: 14px;
+  height: 44px;
+}
+.navlinks {
+  gap: 44px;
+  display: flex;
+  align-items: flex-start;
+}
+.text,.text01,.text02,.text03,.text04,.text05,.text06,.text07,.text08,.text09 {
+  color: rgba(245, 245, 247, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 44px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.group-1 {
+  width: 15px;
+  height: 44px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.vector {
+  top: 15.218994140625px;
+  left: 0.833251953125px;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+}
+.globalnavbagimageyzte-50-i-47-ciularge {
+  width: 13px;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.globalnavbagimageyzte-50-i-47-ciularge,.group {
+  height: 44px;
+  display: flex;
+  align-items: flex-start;
+}
+.group {
+  top: 0px;
+  left: 0px;
+  width: 13.100000381469727px;
+  flex-shrink: 1;
+}
+.group,.vector1 {
+  position: absolute;
+}
+.vector1 {
+  top: 13px;
+  left: 8.881784197001252e-16px;
+  width: 13px;
+  height: 15px;
+}
+@media(max-width: 1024px) {
+  .top-nav {
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+}
