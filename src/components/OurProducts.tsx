@@ -14,7 +14,7 @@ const OurProducts = (props) => {
     <Container
       className={` ${styles['our-products']} ${styles[props.rootClassName]} ${props.params?.styles} `}
     >
-      <Text text="Our Products" className={styles['text']} />
+      <Text text={props.fields.Title} className={styles['text']} />
       <Container className={styles['our-products1']}>
         <Container className={styles['frame-7']}>
           <Container className={styles['repeater']}>
