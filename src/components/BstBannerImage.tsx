@@ -21,27 +21,31 @@ const BstBannerImage = (props) => {
             <Container className={styles['div3']}>
               <Text
                 tag="h1"
-                text="A Bootstrap 5 template for modern businesses"
+                text={props.fields.Title}
                 className={styles['h-1']}
               />
               <Text
                 tag="p"
-                text="Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!"
+                text={props.fields.Description}
                 className={styles['p']}
               />
               <Container className={styles['div4']}>
                 <Link
                   href="#features"
-                  text="Get Started"
+                  text={props.fields.LinkButton1}
                   className={styles['a']}
                 />
-                <Link href="#!" text="Learn More" className={styles['a1']} />
+                <Link
+                  href="#!"
+                  text={props.fields.LinkButton2}
+                  className={styles['a1']}
+                />
               </Container>
             </Container>
           </Container>
           <Container className={styles['div5']}>
             <Image
-              src="https://dummyimage.com/600x400/343a40/6c757d"
+              src={props.fields.Image}
               alt="..."
               className={styles['img']}
             />
