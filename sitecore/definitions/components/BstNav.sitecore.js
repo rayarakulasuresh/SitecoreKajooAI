@@ -7,6 +7,19 @@ export default function (manifest) {
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',
-    fields: [],
+    fields: [
+      {
+        name: 'Logo_Link',
+        type: 'General Link',
+        standardValue:
+          "<link text='Link' linktype='external' url='/' anchor='' target=''/>",
+      },
+      {
+        name: 'List',
+        type: 'Treelist',
+        source:
+          'DataSource=/Sitecore/Content&IncludeTemplatesForSelection=BstNavList',
+      },
+    ],
   })
 }
