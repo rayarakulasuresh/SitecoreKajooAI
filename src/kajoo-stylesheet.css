@@ -4,6 +4,7 @@
   --radius-full: 9999px;
   --radius-none: 0px;
   --size-medium: 96px;
+  --color-orange: #ff9302ff;
   --radius-small: 4px;
   --size-x-large: 192px;
   --size-x-small: 8px;
@@ -18,4 +19,12 @@
   --spacing-four-units: 64px;
   --spacing-one-and-half-units: 24px;
 }
+html {
+	display: block;
+	view-transition-name: root;
+	box-sizing: border-box;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
 

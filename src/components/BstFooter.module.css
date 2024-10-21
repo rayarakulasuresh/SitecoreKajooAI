@@ -1,0 +1,282 @@
+.bst-footer {
+  display: block;
+  box-sizing: border-box;
+  margin-top: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: rgba(33, 37, 41, 1);
+}
+.bst-footer:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div {
+  width: 100%;
+  display: block;
+  max-width: 1320px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.div:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div1 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-top: calc(-1 * 0);
+  align-items: center;
+  margin-left: calc(-0.5 * 1.5rem);
+  margin-right: calc(-0.5 * 1.5rem);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.div1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div2 {
+  width: auto;
+  display: block;
+  flex-grow: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  flex-basis: auto;
+  margin-top: 0;
+  flex-shrink: 0;
+  padding-left: calc(1.5rem * 0.5);
+  padding-right: calc(1.5rem * 0.5);
+}
+.div2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div3 {
+  color: rgba(255, 255, 255, 1);
+  display: block;
+  font-size: 0.875em;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.div3:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div4 {
+  width: auto;
+  display: block;
+  flex-grow: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  flex-basis: auto;
+  margin-top: 0;
+  flex-shrink: 0;
+  padding-left: calc(1.5rem * 0.5);
+  padding-right: calc(1.5rem * 0.5);
+}
+.div4:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.a {
+  color: rgb(248, 249, 250);
+  cursor: pointer;
+  font-size: 0.875em;
+  box-sizing: border-box;
+  text-decoration-line: underline;
+}
+.a:hover,.a:focus {
+  color: rgb(249, 250, 251);
+}
+.a:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+  outline-offset: 1px;
+}
+.span {
+  color: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.span:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.a1 {
+  color: rgb(248, 249, 250);
+  cursor: pointer;
+  font-size: 0.875em;
+  box-sizing: border-box;
+  text-decoration-line: underline;
+}
+.a1:hover,.a1:focus {
+  color: rgb(249, 250, 251);
+}
+.a1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+  outline-offset: 1px;
+}
+.span1 {
+  color: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.span1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.a2 {
+  color: rgb(248, 249, 250);
+  cursor: pointer;
+  font-size: 0.875em;
+  box-sizing: border-box;
+  text-decoration-line: underline;
+}
+.a2:hover,.a2:focus {
+  color: rgb(249, 250, 251);
+}
+.a2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+  outline-offset: 1px;
+}
+
+@media(max-width: 1199px) {
+  .div {
+    max-width: 960px;
+  }
+}
+@media(max-width: 991px) {
+  .div {
+    max-width: 720px;
+  }
+}
+@media(max-width: 768px) {
+  .div {
+    max-width: 540px;
+  }
+  .div1 {
+    flex-direction: row;
+  }
+}
+@media(max-width: 575px) {
+  .bst-footer {
+    margin-top: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgba(33, 37, 41, 1);
+  }
+  .bst-footer,.div {
+    display: block;
+    box-sizing: border-box;
+  }
+  .div {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .div1 {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: calc(-1 * 0);
+    align-items: center;
+    margin-left: calc(-0.5 * 1.5rem);
+    margin-right: calc(-0.5 * 1.5rem);
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .div2 {
+    width: auto;
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: auto;
+    margin-top: 0;
+    flex-shrink: 0;
+    padding-left: calc(1.5rem * 0.5);
+    padding-right: calc(1.5rem * 0.5);
+  }
+  .div2,.div3 {
+    display: block;
+    box-sizing: border-box;
+  }
+  .div3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.875em;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .div4 {
+    width: auto;
+    display: block;
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: auto;
+    margin-top: 0;
+    flex-shrink: 0;
+    padding-left: calc(1.5rem * 0.5);
+    padding-right: calc(1.5rem * 0.5);
+  }
+  .div4,.a {
+    box-sizing: border-box;
+  }
+  .a {
+    color: rgb(248, 249, 250);
+    cursor: pointer;
+    font-size: 0.875em;
+    text-decoration-line: underline;
+  }
+  .span {
+    color: rgba(255, 255, 255, 1);
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .span,.a1 {
+    box-sizing: border-box;
+  }
+  .a1 {
+    color: rgb(248, 249, 250);
+    cursor: pointer;
+    font-size: 0.875em;
+    text-decoration-line: underline;
+  }
+  .span1 {
+    color: rgba(255, 255, 255, 1);
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .span1,.a2 {
+    box-sizing: border-box;
+  }
+  .a2 {
+    color: rgb(248, 249, 250);
+    cursor: pointer;
+    font-size: 0.875em;
+    text-decoration-line: underline;
+  }
+}
