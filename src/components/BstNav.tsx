@@ -16,11 +16,7 @@ const BstNav = (props) => {
       className={` ${styles['bst-nav']} ${styles[props.rootClassName]} ${props.params?.styles} `}
     >
       <Container className={styles['div']}>
-        <Link
-          href={props.fields['Logo_Link']}
-          text="Start Bootstrap"
-          className={styles['a']}
-        />
+        <Link href={props.fields['Logo_Link']} className={styles['a']} />
         <button
           type="button"
           data-bs-toggle="collapse"
@@ -37,11 +33,7 @@ const BstNav = (props) => {
             <Container className={styles['repeater']}>
               {props.fields.List.map((item, index) => (
                 <li key={index} className={styles['li']}>
-                  <Link
-                    href="index.html"
-                    text="Home"
-                    className={styles['a1']}
-                  />
+                  <Link href={item.fields.hyperLink} className={styles['a1']} />
                 </li>
               ))}
             </Container>
