@@ -13,7 +13,7 @@ const BstNewsLetter = (props) => {
   return (
     <Container
       tag="aside"
-      className={` ${styles['bst-news-letter']} ${styles[props.rootClassName]} ${props.params?.styles} `}
+      className={` ${styles['bst-news-letter']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
     >
       <Container className={styles['div']}>
         <Container className={styles['div1']}>

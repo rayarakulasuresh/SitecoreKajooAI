@@ -13,7 +13,7 @@ const BstFooter = (props) => {
   return (
     <Container
       tag="footer"
-      className={` ${styles['bst-footer']} ${styles[props.rootClassName]} ${props.params?.styles} `}
+      className={` ${styles['bst-footer']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
     >
       <Container className={styles['div']}>
         <Container className={styles['div1']}>

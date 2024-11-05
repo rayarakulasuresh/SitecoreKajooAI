@@ -13,7 +13,7 @@ const BstNav = (props) => {
   return (
     <Container
       tag="nav"
-      className={` ${styles['bst-nav']} ${styles[props.rootClassName]} ${props.params?.styles} `}
+      className={` ${styles['bst-nav']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
     >
       <Container className={styles['div']}>
         <Link href={props.fields['Logo_Link']} className={styles['a']} />

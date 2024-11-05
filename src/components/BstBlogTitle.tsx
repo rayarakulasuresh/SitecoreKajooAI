@@ -12,7 +12,7 @@ import styles from './BstBlogTitle.module.css'
 const BstBlogTitle = (props) => {
   return (
     <Container
-      className={` ${styles['bst-blog-title']} ${styles[props.rootClassName]} ${props.params?.styles} `}
+      className={` ${styles['bst-blog-title']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
     >
       <Container className={styles['div']}>
         <Container className={styles['div01']}>

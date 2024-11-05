@@ -14,7 +14,7 @@ const BstFeatureTile = (props) => {
     <Container
       tag="section"
       id="features"
-      className={` ${styles['bst-feature-tile']} ${styles[props.rootClassName]} ${props.params?.styles} `}
+      className={` ${styles['bst-feature-tile']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
     >
       <Container className={styles['div']}>
         <Container className={styles['div01']}>

@@ -13,7 +13,7 @@ const BstBannerImage = (props) => {
   return (
     <Container
       tag="header"
-      className={` ${styles['bst-banner-image']} ${styles[props.rootClassName]} ${props.params?.styles} `}
+      className={` ${styles['bst-banner-image']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
     >
       <Container className={styles['div']}>
         <Container className={styles['div1']}>

@@ -12,7 +12,7 @@ import styles from './BstOurBolg.module.css'
 const BstOurBolg = (props) => {
   return (
     <Container
-      className={` ${styles['bst-our-bolg']} ${styles[props.rootClassName]} ${props.params?.styles} `}
+      className={` ${styles['bst-our-bolg']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
     >
       <Container className={styles['div']}>
         <Container className={styles['div1']}>

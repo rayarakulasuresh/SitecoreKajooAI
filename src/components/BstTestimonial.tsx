@@ -12,7 +12,7 @@ import styles from './BstTestimonial.module.css'
 const BstTestimonial = (props) => {
   return (
     <Container
-      className={` ${styles['bst-testimonial']} ${styles[props.rootClassName]} ${props.params?.styles} `}
+      className={` ${styles['bst-testimonial']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
     >
       <Container className={styles['div']}>
         <Container className={styles['div1']}>
